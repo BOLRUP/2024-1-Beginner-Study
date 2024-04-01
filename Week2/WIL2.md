@@ -24,6 +24,33 @@
 ### Branch Naming Convention
 - “type/<issue 번호>-<간략한 설명>"
 
+### Branch 명령어
+- 현재 브랜치 확인하기
+```
+$ git branch
+```
+- 모든 브랜치 확인하기
+
+```
+$ git branch -a
+```
+- 브랜치 생성하기
+```
+$ git branch "<브랜치 이름>"
+```
+- 브랜치 삭제하기
+```
+$ git branch -D "<브랜치 이름>"
+```
+- 브랜치 이동하기
+```
+$ git checkout "<브랜치 이름>"
+```
+- 브랜치 생성 후 이동하기
+```
+$ git checkout -b "<브랜치 이름>"
+```
+
 ### Pull Request
 - 분기된 Branch를 다시 병합하기 위한 절차
 - 새로운 변경을 제안하거나 병합 시 발생하는 충돌을 해결
